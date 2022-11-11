@@ -19,9 +19,20 @@ main{
     align-items: center;
 
 }
-.slider{
-    width: 80%;
+.mini{
+    width: 30%;
+    height: calc(100% / 5);
+    margin: 0;
+}
+.img-size2{
+    width: 100%;
     height: 100%;
+    /* object-fit: cover; */
+    margin: 0;
+}
+.slider{
+    height: 500px;
+    width: 800px; 
     background-color: #EAEAEA;
     position: relative;
 }
@@ -29,17 +40,16 @@ main{
     display: none;
 }
 .item{
-    width: 100%;
     height: 100%;
+    width: 100%; 
+    display: flex;
 }
 
 .img-size{
-   height: 100%;
-   width: 100%;
-   
-    
+   height: 500px;
+   width: 800px;  
 }
-.prev, .next {
+.prev {
     cursor: pointer;
     position: absolute;
     width: 40px;
@@ -49,12 +59,28 @@ main{
     background-color: rgba(0, 0, 0, 0.7);
     color: rgba(255, 255, 255, 0.8);
     border-radius: 50%;
-    top:50%;
-    transform: translateY(-50%);
-     padding: 0 9px; 
+    bottom: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 5px;
+    padding-top: 5px;
+     margin-bottom: -10px;
   }
 .next{
-    right:0px; 
-    padding: 0 12px; 
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     padding-left: 5px;
+     padding-top: 5px;
+     margin-top: 30px;
     
 }

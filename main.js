@@ -8,10 +8,10 @@ slide.src = arrayimg[i];
 next.addEventListener("click",
  function(){
     i++;
-  if (i > arrayimg.length - 1) {
+   if (i > arrayimg.length - 1) {
     i = 0;
-  }
-  slide.src = arrayimg[i];
+   }
+   slide.src = arrayimg[i];
  }
 
 );
