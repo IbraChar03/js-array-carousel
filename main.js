@@ -16,6 +16,16 @@ next.addEventListener("click",
 
 );
 
+prev.addEventListener("click",
+ function(){
+    i--;
+  if (i < 0) {
+    i = arrayimg.length - 1;
+  }
+  slide.src = arrayimg[i];
+ }
+
+);
 
 
 

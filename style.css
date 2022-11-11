@@ -20,9 +20,9 @@ main{
 
 }
 .slider{
-    width: 60%;
+    width: 80%;
     height: 100%;
-    /* background-color: blue; */
+    background-color: #EAEAEA;
     position: relative;
 }
 .hidden{
@@ -36,7 +36,7 @@ main{
 .img-size{
    height: 100%;
    width: 100%;
-   object-fit: contain;
+   
     
 }
 .prev, .next {
@@ -54,7 +54,7 @@ main{
      padding: 0 9px; 
   }
 .next{
-    right:10px; 
+    right:0px; 
     padding: 0 12px; 
     
 }
