@@ -62,7 +62,7 @@ main{
     bottom: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-left: 5px;
+    padding-left: 7px;
     padding-top: 5px;
      margin-bottom: -10px;
   }
@@ -79,7 +79,7 @@ main{
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-     padding-left: 5px;
+     padding-left: 7px;
      padding-top: 5px;
      margin-top: 30px;
     
