@@ -19,11 +19,7 @@ main{
     align-items: center;
 
 }
-.mini{
-    width: 30%;
-    height: calc(100% / 5);
-    margin: 0;
-}
+
 .img-size2{
     width: 100%;
     height: 100%;
@@ -32,7 +28,7 @@ main{
 }
 .slider{
     height: 500px;
-    width: 800px; 
+    width: 650px; 
     background-color: #EAEAEA;
     position: relative;
 }
@@ -47,9 +43,9 @@ main{
 
 .img-size{
    height: 500px;
-   width: 800px;  
+   width: 650px;  
 }
-.prev {
+.next {
     cursor: pointer;
     position: absolute;
     width: 40px;
@@ -66,7 +62,7 @@ main{
     padding-top: 5px;
      margin-bottom: -10px;
   }
-.next{
+.prev{
     cursor: pointer;
     position: absolute;
     width: 40px;
